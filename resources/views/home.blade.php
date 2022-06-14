@@ -3,5 +3,8 @@
 @section('pageTitle', 'Home page')
 
 @section('mainContent')
-    <h1 class="text-center">Home page <i class="fa-solid fa-home"></i></h1>
+    <main class="text-center">
+        <h1>Benvenuto in Boolean Travel Agency!</h1>
+        <a href="{{route('destinations')}}">Scopri tutte le nostre destinazioni!</a>
+    </main>
 @endsection

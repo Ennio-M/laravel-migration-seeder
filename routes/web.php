@@ -16,3 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('home');
 })->name('home');
+
+Route::get('/destinations', 'DestinationController@index')->name('destinations');
+Route::get('/destinations/{id}', 'DestinationController@show')->name('detail');

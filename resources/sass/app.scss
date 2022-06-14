@@ -7,3 +7,15 @@ $fa-font-path: "../fonts/font-awesome" !default;
 @import '~@fortawesome/fontawesome-free/scss/regular';
 @import '~@fortawesome/fontawesome-free/scss/solid';
 @import '~@fortawesome/fontawesome-free/scss/brands';
+
+a{
+    color: black !important;
+    &:hover{
+        color: black;
+    }
+}
+header{
+    img{
+        width: 50px;
+    }
+}

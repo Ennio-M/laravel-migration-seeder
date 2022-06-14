@@ -20503,3 +20503,14 @@ readers do not read off random characters that represent icons */
 .fa-zhihu:before {
   content: "\F63F";
 }
+
+a {
+  color: black !important;
+}
+a:hover {
+  color: black;
+}
+
+header img {
+  width: 50px;
+}

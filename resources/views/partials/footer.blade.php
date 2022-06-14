@@ -1,3 +1,3 @@
-<footer class="text-center">
-    <h5>Made wit lav bai classe 59🧡</h5>
+<footer class="text-center mt-5">
+    <p>Made with 🧡 by Class #59</p>
 </footer>
